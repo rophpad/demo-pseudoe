@@ -154,7 +154,7 @@ function App() {
             {pseudoeStyle === 'default' && (
               <div className="space-y-2">
                 <label htmlFor="customDefault" className="block text-sm font-medium text-gray-200">
-                  Custom Prefix (optional)
+                  Custom default (optional)
                 </label>
                 <input
                   type="text"
@@ -162,7 +162,7 @@ function App() {
                   name="customDefault"
                   value={customDefault}
                   onChange={(e) => setCustomDefault(e.target.value)}
-                  placeholder="Enter custom prefix..."
+                  placeholder="Enter custom default username..."
                   className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-2.5 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
                 />
               </div>
